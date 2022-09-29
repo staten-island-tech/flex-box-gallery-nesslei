@@ -1,32 +1,41 @@
-html, body, *{
-  padding: 0; 
-  margin: 0; 
-  box-sizing: border-box; 
-  font-size: 62.5%;
-   
-}
-  
-.mommy {
-  font-size: 30px; 
-  display: flex; 
-  justify-content: space-between; 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+html body * {
+    box-sizing: border-box;
+    background-image: url('lights.jpg');
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
 }
 
-.babys {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 32%;
-  height: 32%;
-  border-radius: 10px;
-  margin-bottom: .23%;
-  background-color: 7D9D9C;
-  box-shadow: .5em .5em 1em;
+.mommy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90vw;
+    margin: 30px auto;
+    
 }
+
+.baby {
+    width: 32%;
+    height: 30vw;
+    border-radius: 10px;
+    margin: .23%;
+    background-color: 7D9D9C;
+    box-shadow: .5em .5em 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
 
 .img {
-  height: 100%;
-  width: 95%;
-  padding-top: 1em;
+    height: 23vw;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    color: F0EBE3;
+    text-align: center;
 }
