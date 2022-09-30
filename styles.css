@@ -1,41 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
-html body * {
+html {
     box-sizing: border-box;
-    background-image: url('lights.jpg');
     font-family: "Monsterrat", sans-serif;
     font-weight: 500;
 }
+body {
+    color: #1105A2;
+  }
 
 .mommy {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     width: 90vw;
-    margin: 30px auto;
+    margin: 30px auto;   
+    background-color:#1105A2;
+    background-image:url(images/lights.jpg);
+    background-attachment: fixed;
     
 }
 
-.baby {
+.baby { 
+    
     width: 32%;
     height: 30vw;
     border-radius: 10px;
-    margin: .23%;
-    background-color: 7D9D9C;
+    margin: .60%;
+    background-color: #7D9D9C;
     box-shadow: .5em .5em 1em;
     align-items: center;
     justify-content: space-around;
 }
 
-
-
 .img {
     height: 23vw;
     width: 100%;
     border-radius: 10px;
+    background-color:#1105A2;
 }
 
 .text {
-    color: F0EBE3;
+    color: #F0EBE3;
     text-align: center;
+ 
 }
