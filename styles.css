@@ -4,30 +4,31 @@ html {
     box-sizing: border-box;
     font-family: "Monsterrat", sans-serif;
     font-weight: 500;
+    background-color:#000000;
+    background-image:url(images/lights.jpeg);
+    background-attachment: fixed;
+    height: 100%; 
 }
+
 body {
-    color: #1105A2;
+    color: #ffffff;
   }
 
 .mommy {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     width: 90vw;
     margin: 30px auto;   
-    background-color:#1105A2;
-    background-image:url(images/lights.jpg);
-    background-attachment: fixed;
-    
+    margin-top: 18rem; 
 }
 
 .baby { 
     
-    width: 32%;
-    height: 30vw;
+    width: 26.6%;
+    height: 28vw;
     border-radius: 10px;
-    margin: .60%;
-    background-color: #7D9D9C;
+    margin: 3vw;
+    background-color: #e0bde6;
     box-shadow: .5em .5em 1em;
     align-items: center;
     justify-content: space-around;
@@ -37,7 +38,6 @@ body {
     height: 23vw;
     width: 100%;
     border-radius: 10px;
-    background-color:#1105A2;
 }
 
 .text {
