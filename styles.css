@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Trirong");
 
 html {
     box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    color: #ffffff;
+    color: #000000;
   }
 
 .mommy {
@@ -23,7 +23,7 @@ body {
 }
 
 .baby { 
-    
+    font-family: "Times New Roman", Times, serif;
     width: 26.6%;
     height: 28vw;
     border-radius: 10px;
@@ -41,12 +41,12 @@ body {
 }
 
 .text {
-    color: #F0EBE3;
+    color: #ffffff;
     text-align: center;
- 
+    font-size-adjust: .7; 
 }
 
 .sus {
     align-items: center;
-    margin-left: 17vw;  
+    margin-left: 25vw;  
 }
