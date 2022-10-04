@@ -24,6 +24,7 @@ body {
 
 .baby { 
     font-family: "Times New Roman", Times, serif;
+    flex-flow: row wrap; 
     width: 26.6%;
     height: 28vw;
     border-radius: 10px;
@@ -43,10 +44,14 @@ body {
 .text {
     color: #ffffff;
     text-align: center;
-    font-size-adjust: .7; 
+    font-size-adjust: .5; 
 }
 
 .sus {
     align-items: center;
     margin-left: 25vw;  
+}
+
+.flower {
+  
 }
