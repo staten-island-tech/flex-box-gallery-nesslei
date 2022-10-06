@@ -14,6 +14,17 @@ body {
     color: #000000;
   }
 
+  .gif {
+    padding-left: 8rem; 
+    width: 20rem; 
+  }
+  
+  .gif2{
+    padding-left: 1rem;
+    width: 20rem;
+    margin-right: 5rem; 
+  }
+
 .mommy {
     display: flex;
     flex-wrap: wrap;
@@ -48,10 +59,7 @@ body {
 }
 
 .sus {
-    align-items: center;
-    margin-left: 25vw;  
+    margin-left: 1%;  
+    padding: 0rem; 
 }
 
-.flower {
-  
-}
