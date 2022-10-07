@@ -59,5 +59,6 @@ body {
 .sus {
     margin-left: 1%;  
     padding: 0rem; 
+    animation: 4s linear 0s infinite alternate sun-rise;
 }
 
