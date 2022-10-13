@@ -94,3 +94,13 @@ body {
   transform: rotateZ(0);
 }
 }
+
+/*floating mike (●'◡'●)*/
+
+#float {
+    position: relative;
+    border; 1px solid green;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
