@@ -12,14 +12,22 @@ body {
     color: #000000;
   }
 
+  .sus:hover { 
+    height: 23vw;
+    width: 100%;
+    border-radius: 10px;
+    animation: wiggle 2s linear infinite;
+    transform-origin: 50% 5em;
+}
+
   .gif {
-    padding-left: 8rem; 
-    width: 20rem; 
+    padding-left: 9rem; 
+    width: 15%; 
   }
   
   .gif2{
-    padding-left: 1rem;
-    width: 20rem;
+    padding-left: 0rem;
+    width: 15%;
     margin-right: 5rem; 
   }
 
@@ -167,13 +175,6 @@ body {
     color: #ffffff;
     text-align: center;
     font-size-adjust: .5; 
-}
-
-.sus:hover { 
-    margin-left: 1%;  
-    padding: 0rem; 
-    animation: wiggle 2s linear infinite;
-    transform-origin: 50% 5em;
 }
 
 /*wiggle wiggle wiggle*/
@@ -380,3 +381,9 @@ body {
     }
   }
 
+@media all and (max-width: 500px) {
+  .mommy {
+
+  }
+
+}
