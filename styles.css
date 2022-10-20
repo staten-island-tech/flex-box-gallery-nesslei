@@ -23,7 +23,7 @@ body {
   width: 26.6%;
   height: 28vw;
   border-radius: 10px;
-  margin: 3vw;
+  margin: 3.6rem;
   align-items: center;
 }
 
@@ -382,18 +382,50 @@ body {
     }
   }
 
-@media all and (max-width: 500px) {
+@media screen and (max-width: 390px) {
   .baby {
-    flex-basis:90%;
+    width: 8rem; 
+    margin-left: 17px;
+    display: flex;
+    flex-direction: column; 
   }
-
   .mommy {
     margin: 1rem;
   }
 
-  .body {
-    margin-left: 2rem; 
-    font-size: 1rem;  
+  .text {
+    font-size: 5px; 
   }
 
+  .text5 {
+    font-size: 4px; 
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .baby {
+    width: 15rem; 
+    height: 14.7rem; 
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column; 
+  }
+  .mommy {
+    margin: 1rem;
+  }
+
+  .text {
+    font-size: 10px; 
+  }
+
+  .text5 {
+    font-size: 8px; 
+  }
+
+}
+
+@media screen and (max-width: 1440px) {
+  .flow {
+    margin-left: 40px; 
+  }
 }
