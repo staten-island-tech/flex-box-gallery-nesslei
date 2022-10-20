@@ -32,7 +32,7 @@ body {
     flex-wrap: wrap;
     width: 90vw;
     margin: 30px auto;   
-    margin-top: 3rem; 
+    padding-top: 1rem; 
 }
 
 .baby { 
@@ -159,6 +159,11 @@ body {
     animation-iteration-count: 1;
     box-shadow: 10px 10px 8px #888888;
   }
+
+.baby-6{
+  animation: wiggle 2s linear infinite;
+  transform-origin: 50% 5em;
+}
 
 
 .img {
@@ -378,8 +383,17 @@ body {
   }
 
 @media all and (max-width: 500px) {
-  .mommy {
+  .baby {
+    flex-basis:90%;
+  }
 
+  .mommy {
+    margin: 1rem;
+  }
+
+  .body {
+    margin-left: 2rem; 
+    font-size: 1rem;  
   }
 
 }
