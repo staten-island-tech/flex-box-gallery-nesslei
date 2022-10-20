@@ -12,24 +12,20 @@ body {
     color: #000000;
   }
 
-  .sus:hover { 
-    height: 23vw;
-    width: 100%;
-    border-radius: 10px;
-    animation: wiggle 2s linear infinite;
-    transform-origin: 50% 5em;
+.sus {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
 }
 
-  .gif {
-    padding-left: 9rem; 
-    width: 15%; 
-  }
-  
-  .gif2{
-    padding-left: 0rem;
-    width: 15%;
-    margin-right: 5rem; 
-  }
+.flow {
+  flex-flow: row wrap; 
+  width: 26.6%;
+  height: 28vw;
+  border-radius: 10px;
+  margin: 3vw;
+  align-items: center;
+}
 
 .mommy {
     display: flex;
